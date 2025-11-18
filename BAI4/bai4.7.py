@@ -1,0 +1,6 @@
+print("Ho va ten :Dinh Hai Dang")
+print("MSSV:245752021610046")
+print("---------------------")
+chuoi = input("Nhập chuỗi: ")
+chuoi_moi = ''.join(ch for ch in chuoi if not ch.isdigit())
+print("Chuỗi sau khi loại bỏ chữ số:", chuoi_moi)

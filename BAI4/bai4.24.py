@@ -1,0 +1,8 @@
+print("Ho va ten :Dinh Hai Dang")
+print("MSSV:245752021610046")
+print("---------------------")
+s = input("Nhập câu: ")
+chu_hoa = sum(c.isupper() for c in s)
+chu_thuong = sum(c.islower() for c in s)
+print("Chữ hoa:", chu_hoa)
+print("Chữ thường:", chu_thuong)
